@@ -45,37 +45,18 @@ hr {
 }
 
 @media screen and (max-width: 768px) {
-    * p {
-        font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+    html{
+        background-color: #000;
     }
-    
-    * h1, * h2, * h3, * h4, * h5 {
-        font-size: clamp(1em, 1em + 1vw, 1.5em);
-    }
+
     iframe{
         width: 50vw;
         height: 50vw;
     }
-    footer{
-        text-align: start;
-        font-size: calc(1vw + 1.5em);
-    }
-    
-    footer h1, footer h2, footer h3 {
-        text-align: center;
-    }
-    .image{
-        width: 80%;
-        margin: 10px;
-        border-radius: 10px;
-    }
-    .card {
-        width: 20vw;
-        height: 35vw;
-        border-radius: 5px;
-        
-        
-    }
+
+
+
+
     .flexresponsivo {
         flex-direction: column;
     }
