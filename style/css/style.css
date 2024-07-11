@@ -44,6 +44,15 @@ hr {
     color: #000;
 }
 
+
+#vantagens {
+    /* background-image: url("../img/img4.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
 @media screen and (max-width: 768px) {
     html{
         background-color: #000;
