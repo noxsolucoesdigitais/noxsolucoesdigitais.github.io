@@ -1,0 +1,83 @@
+html{
+    scroll-behavior: smooth;
+    background-color: #000;
+}
+main{
+    margin: 1% 0;
+}
+a, a:link, a:visited, a:hover, a:active{
+    color: white;
+    text-decoration: none;
+}
+
+* img{
+    object-fit: cover;
+    object-position: center;
+}
+
+/* * p {
+    font-size: clamp(0.5em, 0.5em + 1vw, 1.5em);
+}
+
+* h1, * h2, * h3, * h4, * h5 {
+    font-size: clamp(1.5em, 1.5em + 1vw, 2.5em);
+} */
+
+iframe{
+    width: 20vw;
+    height: 20vw;
+}
+
+hr {
+    color: #ffffff00; 
+    border-color: #ffffff00; 
+    height: 120px;
+}
+
+.gradient-blue{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(27,121,242,1) 27%, rgba(27,121,242,1) 70%, rgba(0,0,0,1) 100%);
+}
+
+.white, .white * h1, .white * h2, .white * h3, .white * h4, .white * h5, .white * p{
+    background-color: #fff;
+    color: #000;
+}
+
+@media screen and (max-width: 768px) {
+    * p {
+        font-size: clamp(0.2em, 0.2em + 1vw, 1em);
+    }
+    
+    * h1, * h2, * h3, * h4, * h5 {
+        font-size: clamp(1em, 1em + 1vw, 1.5em);
+    }
+    iframe{
+        width: 50vw;
+        height: 50vw;
+    }
+    footer{
+        text-align: start;
+        font-size: calc(1vw + 1.5em);
+    }
+    
+    footer h1, footer h2, footer h3 {
+        text-align: center;
+    }
+    .image{
+        width: 80%;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    .card {
+        width: 20vw;
+        height: 35vw;
+        border-radius: 5px;
+        
+        
+    }
+    .flexresponsivo {
+        flex-direction: column;
+    }
+
+}

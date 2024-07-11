@@ -1,0 +1,7 @@
+#banner {
+    background-image: url("../img/entrada-escola.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 40vw;
+    width: 100% !important;
+}

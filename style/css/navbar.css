@@ -1,0 +1,39 @@
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    transition: 500ms linear;
+    margin: 1px 0;
+    z-index: 10 !important;
+    transition: 500ms linear;
+  }
+  
+
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    margin: 0 !important;
+    transition: 500ms linear;
+  }
+
+  .sticky div div img {
+    filter: invert(89%) sepia(100%) saturate(0%) hue-rotate(177deg) brightness(121%) contrast(200%);
+    transition: 500ms linear;
+  }
+
+  .sticky * a {
+    color: #fff !important;
+  }
+
+  #nav-logo{
+    width: 10vw;
+    height: auto;
+  }
+  #nav-logo img {
+    height: 100%;
+    object-fit: contain;
+  }
+  .nav-link {
+    color: #004AAD !important;
+    font-weight: bold;
+  }
