@@ -24,8 +24,8 @@ a, a:link, a:visited, a:hover, a:active{
 } */
 
 iframe{
-    width: 20vw;
-    height: 20vw;
+    width: 100%;
+    height: 100vw;
 }
 
 hr {
@@ -39,7 +39,7 @@ hr {
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(27,121,242,1) 27%, rgba(27,121,242,1) 70%, rgba(0,0,0,1) 100%);
 }
 
-.white, .white * h1, .white * h2, .white * h3, .white * h4, .white * h5, .white * p{
+.white, .white * h1, .white * h2, .white * h3, .white * h4, .white * h5, .white * p, .white * a{
     background-color: #fff;
     color: #000;
 }
@@ -58,10 +58,6 @@ hr {
         background-color: #000;
     }
 
-    iframe{
-        width: 50vw;
-        height: 50vw;
-    }
 
 
 
