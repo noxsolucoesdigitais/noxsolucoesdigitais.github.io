@@ -44,6 +44,16 @@ hr {
     color: #000;
 }
 
+.card-title {
+    color: #b8b3ff;
+}
+
+.shadow-drop-center {
+	border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
 
 #vantagens {
     /* background-image: url("../img/img4.jpg"); */
